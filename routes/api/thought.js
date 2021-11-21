@@ -6,7 +6,7 @@ const {
   findThoughtById,
   addReaction,
   removeReaction
-} = require('../../controllers/thought-controller');
+} = require('../../controllers/thoughtController');
 
 router.route('/:usersId').post(addThought);
 
